@@ -8,6 +8,31 @@ It validates uploaded images, detects faces, analyzes emotions, creates **Disney
 Perfect for experimenting with **AI-based avatar creation**, **face re-styling**, or **digital character generation**.
 
 ---
+## WORK FLOW
+Workflow Diagram
+[Upload Image]
+      │
+      ▼
+[Validate Image]
+  ├─ Check format (.jpg/.png)
+  ├─ Check resolution (≥512×512)
+  └─ Check sharpness (Laplacian variance)
+      │
+      ▼
+[Detect & Crop Faces using DeepFace]
+      │
+      ▼
+[Analyze Age, Gender, Emotion]
+      │
+      ▼
+[Generate Disney 3D Avatar using Diffusers]
+      │
+      ▼
+[Swap Face using InsightFace (InSwapper)]
+      │
+      ▼
+[Final Disney Face Swapped Image]
+
 
 ##  Features
 
