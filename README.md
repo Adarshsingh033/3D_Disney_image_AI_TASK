@@ -9,7 +9,7 @@ Perfect for experimenting with **AI-based avatar creation**, **face re-styling**
 
 ---
 
-## 🧠 Workflow Diagram
+## Workflow Diagram
 
 ```
 [Upload Image]
